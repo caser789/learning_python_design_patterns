@@ -2,6 +2,8 @@
 
 2. logging, database operation, printer spooler
 
+3. thread pools, caches, dialog boxes, registry settings
+
 ## singleton
 
 ```
@@ -57,3 +59,7 @@ class int(metaclass=MyInt):
         self.x = x
         self.y = y
 ```
+
+## drawbacks
+
+global variable
